@@ -7,7 +7,7 @@ import ssl
 # Developer: SirCryptic (NullSecurityTeam)
 # Info: failsafe [BETA]
 # 15DB1A86C9C57A5153DA1E215FEF5C6414F3BF546E386C028D28012111FFD593
-# Fuck The System Before It Fucks You!
+# Fuck The System Before It Fucks You! - Greetz From SC|NS
 
 hashed_password = bcrypt.hashpw("secret".encode(), bcrypt.gensalt()) # replace `secret` with your hashed bcrypt password
 interval = 7 # Number of days between password prompts
